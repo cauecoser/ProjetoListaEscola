@@ -1,0 +1,234 @@
+
+        html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after, q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+/*===========================================================================================================================================*/
+
+body {
+    background-image: linear-gradient(rgba(255,255,255, 0.1), rgba(255,255,255, 0.5)),
+   url("escola.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font: normal 20px Arial;
+}
+
+
+header {
+    background-color: rgb(70,150,100);
+    font-weight: bold;
+    text-align: left;
+    line-height: 100px;
+    padding-right: 30px;
+    color: white;
+}
+
+#links {
+    display: flex;
+    gap: 75px;
+}
+
+section {
+    display: flex;
+    margin-top: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    align-self: center;
+}
+
+h5 {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+footer {
+    margin-bottom: 50px;
+    color: black;
+}
+
+table {
+    border: solid 3px gray;
+    text-align: center;
+}
+
+td, th {
+    border: dashed 3px gray;
+    padding: 5px;
+}
+
+th {
+    background-color: black;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+a:hover, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+#sec2, #sec4, #sec1d1, #sec3d2, #lista {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#sec1d1, #sec3d2, #sec2d2, #sec4 {
+    gap: 30px;
+}
+
+#cab, #sec2d2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.divint {
+    width: 50%;
+}
+
+#cad_al {
+    font-size: 20px;
+    font-weight: bold;
+    width: 220px;
+    height: 40px;
+    color: white;
+    background-color: green;
+    border: solid 3px #c8c8c8;
+    border-radius: 5px;
+    align-self: center;
+}
+
+#sec1d2, #sec3d1, #foot, #divlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.foto_redonda1 {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.foto_redonda2 {
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.input {
+    height: 32px;
+    font-size: 20px;
+    width: 350px;
+    color: white;
+    background-color: green;
+    border: solid 3px rgb(200, 200, 200);
+    border-radius: 5px;
+    align-self: center;
+}
+
+#labels {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 25% 0 20%;
+    justify-items: center;
+    line-height: 30px;
+    gap: 50px;
+}
+
+input::placeholder {
+    color: rgba(255,255,255,0.5);
+    font-weight: 100;
+    padding-left: 5px;
+}
+
+#img1, #img4 {
+    width: 350px;
+}
+
+#img2, #img3 {
+    width: 100px;
+    align-self: center;
+}
+
+#diva, #divb {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#logo {
+    border-radius: 5px;
+}
+
+.divinput {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+
+tr:nth-child(even) {background: #aaa}
+
+#suporte {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#duvida {
+    font: normal 12pt Arial;
+    border-radius: 8px;
+    background-color: rgb(200,200,200);
+    padding: 7px;
+    resize: none;
+}
+
+#fcontato {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
